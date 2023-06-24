@@ -1,0 +1,392 @@
+
+#teste{
+    margin-top: 70px; /* Espaço para o menu */
+    background-repeat: no-repeat;
+    background-size: cover; /*PLANO DE FUNDO RESPONSIVO*/
+}
+.justify-content-md-center {
+    justify-content: center!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: OpenSans;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-image: url(./img/PLANOS_DE_FUNDO/PLANO_FUNDO_CARDAPIO.png); /*PLANO DE FUNDO*/
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292129;
+    text-align: left;
+    background-color: #fff;
+}
+
+:root {
+    --color-item-code: #515151;
+    --color-item-price: #7c3829;
+    --color-item-title: #7c3829;
+    --color-modal-item: #030303;
+    --color-item-detail: #7c3829;
+    --color-banner-title: #fff;
+    --color-menu-section: #b4b61e;
+    --color-modal-detail: #cfcfcf;
+    --color-search-input: #030303;
+    --color-catalog-title: #fff;
+    --color-search-detail: #7c3829;
+    --color-section-title: #515151;
+    --color-loader-primary: #7c3829;
+    --color-menu-background: #e5e5e5;
+    --color-menu-item-price: #000000;/*preço*/
+    --color-menu-item-title: rgb(10, 61, 172); /*TESTE*/
+    --color-section-divider: #bdbdbd;
+    --color-item-description: #979797;
+    --color-loader-secondary: #dadada;
+    --color-modal-background: #fff;
+    --color-banner-background: #7c3829;
+    --color-catalog-item-text: #fff;
+    --color-search-background: #fff;
+    --color-banner-description: #fff;
+    --color-catalog-background: #7c3829;
+    --color-search-placeholder: #a0a0a0;
+    --color-banner-catalog-text: #fff;
+    --color-catalog-item-border: #fff;
+    --color-modal-item-selected: #7c3829;
+    --color-menu-item-description: #ffffff; /*color descrição dos pratos*/
+    --color-section-title-disabled: #bdbdbd;
+    --color-section-title-selected: #7c3829;
+    --color-catalog-item-background: #7c3829;
+    --color-catalog-item-text-hover: #030303;
+    --color-banner-catalog-background: #46190f;
+    --color-catalog-item-background-hover: #bdbdbd;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+/*==============================================================FINAL - PRIMEIRA DIV===============================================================*/
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+
+}
+
+.col-lg-10 { /*(min-width: 992px)*/
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col-md-8 { /*(min-width: 768px)*/
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-bottom: 10px; /*ESPAÇAMENTO ENTRE OS DADOS DOS PRATOS*/
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.382); /*COR DOS ITEM-CARDS*/
+    border-radius: 20px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-10 {/*(min-width: 992px)*/
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col-md-8 {/*(min-width: 768px)*/
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*==============================================================FINAL - SEGUNDA DIV===============================================================*/
+
+.section-title[_ngcontent-serverApp-c78] {
+    text-align: center;
+    margin: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-menu-section); /*COR DOS TITULOS EX: FEIJOADA, LANÇAMENTO*/
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*==============================================================FINAL - PARAGRAFOS===============================================================*/
+
+/*TUDO DO MESMO*/
+
+
+/*==============================================================FINAL - TERCEIRA DIV===============================================================*/
+
+item-card[_ngcontent-serverApp-c78] {
+    flex: 1 0 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0px;
+}
+
+
+/*FINAL DO ITEM-CARD*/
+
+.card[_ngcontent-serverApp-c77], .row[_ngcontent-serverApp-c77] {
+    width: 100%;
+}
+
+.row[_ngcontent-serverApp-c77] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 250px; /*TESTE*/
+}
+/*==============================================================FINAL - QUARTA DIV - ROW===============================================================*/
+
+.container-details[_ngcontent-serverApp-c77] {
+    padding-right: 0;
+}
+
+.mt-1, .my-1 {
+    margin-top: 0.25rem!important;
+}
+
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+/*==============================================================FINAL - QUINTA DIV===============================================================*/
+
+.name[_ngcontent-serverApp-c77] {/*screen and (min-width: 64em)*/
+    font-size: 1.2rem;
+}
+
+.name[_ngcontent-serverApp-c77] {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color-menu-item-title); /*TITULO DOS PRATOS EX.: ESPAGUETE */
+}
+
+.description[_ngcontent-serverApp-c77] {
+    max-height: 200px;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.description[_ngcontent-serverApp-c77] {
+    font-size: 18px; /*TAMANHO DA FONTE DO TEXTO DE DESCRIÇÃO DOS PRATOS*/
+    max-height: 80px; /*ALTURA MAXIMA DAS LINHAS DE TEXTO DAS DESCRIÇÕES*/
+    overflow: auto;
+    color: var(--color-menu-item-description); /*texto: descricao do prato*/
+    margin-bottom: 4px;
+}
+
+.price[_ngcontent-serverApp-c77] {
+    color: var(--color-menu-item-price); /*texto: valor do prato*/
+    font-size: 18px; 
+}
+
+/*====================================================FINAL - SEXTA DIV - container-details ou seja descricoes============================================*/
+
+.container-image[_ngcontent-serverApp-c77] {
+    height: auto;/*TESTE*/
+    padding-right: 0;
+    max-width: 200px;
+}
+
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+/*====================================================FINAL - SETIMA DIV - container da imagem============================================*/
+
+.container-image[_ngcontent-serverApp-c77] img[_ngcontent-serverApp-c77] { 
+    /*AJUSTA O TAMANHO DA IMAGEM*/
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top[_ngcontent-serverApp-c77] { /*AJUSTES DE PADRONIZACAO NA IMAGEM*/
+    border-radius: 20px;
+    height: 112px;
+    width: 112px;
+    -o-object-fit: contain;
+    /*object-fit: contain;*/
+    /*TESTE*/
+    object-fit: fill;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+img {
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+
+/*FINAL - IMG - */
+
+/*=========================FINAL DO CONTEUDO==============================*/
+/*==============INICIO DO FOOTER=======*/
+
+.BLOCO-FOOTER {
+    
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do footer */
+footer {
+    margin-top: 70px;
+    background-color: #f8f8f8; /*codigo da cor default: 642a1a*/
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links a{
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+body {
+  /*background-image: url(./img/Plano_de_fundo.avif);*/
+  background-image: url(./img/PLANOS_DE_FUNDO/Plano_Fundo_Home.jpg);
+  /*PLANO DE FUNDO DO SITE*/
+  /*background-size: cover;*/
+  /*REDIMENSIONA A IMAGEM PARA CUBRIR TODO O FUNDO, MAS SE FOR UMA IMAGEM PEQUENA FICA ZOADA*/
+  /*background-position: center center;*/
+  /*CENTRALIZANDO A IMAGEM DE FUNDO*/
+  height: 40px;
+}
+
+
+/** COLOQUEI NO CSS: menu-horizontal**/
+
+/*============================================================================*/
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: 382.96px;
+  /*altura das imagens dos anuncios semanais*/
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  margin-top: 10px;
+}
+
+
+/*============================================================================*/
+/** COLOQUEI NO CSS: Roda-pe**/

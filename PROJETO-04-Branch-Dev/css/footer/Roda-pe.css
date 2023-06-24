@@ -1,0 +1,72 @@
+.BLOCO-FOOTER {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 19px;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #f8f8f8; /*codigo da cor default: 642a1a*/
+    padding: 20px 0;
+}
+
+footer i{
+    color: #642a1a; /*CORES DOS ICONES DAS REDES SOCIAIS*/
+    font-size: 22px; /*TAMANHO DOS ICONES DAS REDES SOCIAIS*/
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links a{
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    margin-top: -62px; /*ESPAÇAMENTO DO COPYRIGHT*/
+}
+
+li.icon{
+    padding: 5px 0px; /*ESPAÇAMENTO ENTRE OS ICONES DAS REDES*/
+}
